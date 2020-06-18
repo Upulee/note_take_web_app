@@ -1,4 +1,4 @@
-from Tkinter import *
+from tkinter import *
 import tkinter as tk
 from tkinter import messagebox
 import mysql.connector
@@ -70,7 +70,7 @@ button_frame.pack(side=tk.TOP)
 
 
 # DATABASE FUNCTIONS STARTS
-conn = mysql.connector.connect(host="localhost", port=3306, user="root", passwd="")
+conn = mysql.connector.connect(host="localhost", port=3306, user="root", passwd="root")
 
 
 def db_create_db(conn):
